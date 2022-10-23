@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="table-responsive table--no-card m-b-30">
+
+            <table class="table table-borderless table-striped table-earning">
+
+                <thead>
+                    <tr>
+                        <th>
+                            Tháng
+                        </th>
+                        <th>
+                            Tên máy bay
+                        </th>
+                        <th>
+                            Doanh Thu
+                        </th>
+                        <th>
+                            Số Chuyến Bay
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="getdatadoanhthunam">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var url = "http://localhost:50947/api/";
+        GetData();
+        function GetData() {
+            var date = new Date();
+            var nam = date.getFullYear();
+            $.ajax({
+                type: "POST",
+                url: url + "DatChoHanhKhach/GetBaoCaoDanhThuTheoNam/" + nam,
+                data: $("#getdatadoanhthunam").serialize(),
+                success: function (data) {
+                    $.each(data, function (index, value) {
+                        $("#getdatadoanhthunam").append(productBuildTableRow(value));
+                    });
+                },
+                error: function () { alert('error'); }
+            });
+        }
+        function productBuildTableRow(item) {
+            var ret =
+                '<tr>'
+                + '<td>' + item.thang + '</td>'
+                + '<td>' + item.tenMayBay + '</td>'
+                + '<td>' + item.doanhThu + '</td>'
+                + '<td>' + item.soChuyenBay + '</td>'
+                + '</tr>';
+
+            return ret;
+        }
+    })
+
+</script>
+

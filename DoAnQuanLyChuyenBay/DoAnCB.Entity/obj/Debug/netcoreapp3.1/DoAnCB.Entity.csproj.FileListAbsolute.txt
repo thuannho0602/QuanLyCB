@@ -1,0 +1,10 @@
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Entity\bin\Debug\netcoreapp3.1\DoAnCB.Entity.deps.json
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Entity\bin\Debug\netcoreapp3.1\DoAnCB.Entity.dll
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Entity\bin\Debug\netcoreapp3.1\DoAnCB.Entity.pdb
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Entity\obj\Debug\netcoreapp3.1\DoAnCB.Entity.csprojAssemblyReference.cache
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Entity\obj\Debug\netcoreapp3.1\DoAnCB.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Entity\obj\Debug\netcoreapp3.1\DoAnCB.Entity.AssemblyInfoInputs.cache
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Entity\obj\Debug\netcoreapp3.1\DoAnCB.Entity.AssemblyInfo.cs
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Entity\obj\Debug\netcoreapp3.1\DoAnCB.Entity.csproj.CoreCompileInputs.cache
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Entity\obj\Debug\netcoreapp3.1\DoAnCB.Entity.dll
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Entity\obj\Debug\netcoreapp3.1\DoAnCB.Entity.pdb

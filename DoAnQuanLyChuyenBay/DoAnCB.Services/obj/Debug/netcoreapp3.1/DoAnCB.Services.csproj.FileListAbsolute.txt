@@ -1,0 +1,10 @@
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Services\bin\Debug\netcoreapp3.1\DoAnCB.Services.deps.json
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Services\bin\Debug\netcoreapp3.1\DoAnCB.Services.dll
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Services\bin\Debug\netcoreapp3.1\DoAnCB.Services.pdb
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Services\obj\Debug\netcoreapp3.1\DoAnCB.Services.csprojAssemblyReference.cache
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Services\obj\Debug\netcoreapp3.1\DoAnCB.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Services\obj\Debug\netcoreapp3.1\DoAnCB.Services.AssemblyInfoInputs.cache
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Services\obj\Debug\netcoreapp3.1\DoAnCB.Services.AssemblyInfo.cs
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Services\obj\Debug\netcoreapp3.1\DoAnCB.Services.csproj.CoreCompileInputs.cache
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Services\obj\Debug\netcoreapp3.1\DoAnCB.Services.dll
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Services\obj\Debug\netcoreapp3.1\DoAnCB.Services.pdb

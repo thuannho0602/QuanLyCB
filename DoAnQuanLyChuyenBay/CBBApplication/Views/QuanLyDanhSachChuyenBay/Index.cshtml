@@ -1,0 +1,630 @@
+﻿
+@{
+    ViewData["Title"] = "Đặt vé";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .btnColow {
+        background-color: #6c757d !important;
+        border-color: #6c757d !important;
+    }
+</style>
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-body">
+            <div class="card-title">
+                <h3 class="text-center title-2">Tìm Chuyến Bay</h3>
+            </div>
+            <hr>
+            <form action="" method="post" novalidate="novalidate">
+                <div class="row form-group">
+                    <div class="col col-md-12">
+                        <div class="form-check-inline form-check">
+                            <label for="MotChieu" class="form-check-label ">
+                                <input type="radio" id="MotChieu" name="loaive" value="MotChieu" class="form-check-input">Một Chiều
+                            </label>
+                            <label style="margin-left:20px" for="KhuHoi" class="form-check-label ">
+                                <input type="radio" id="KhuHoi" name="loaive" value="KhuHoi" class="form-check-input">Khứ Hồi
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="sanbaydi" class=" form-control-label">Sân Bay Đi: </label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <select name="selectSanBayDi" id="selectSanBayDi" class="form-control">
+                        </select>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="sanbayden" class=" form-control-label">Sân Bay Đến: </label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <select name="selectSanBayDen" id="selectSanBayDen" class="form-control">
+                        </select>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="ngaydi" class=" form-control-label">Ngày Đi: </label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="date" min="1997-01-01" max="2030-12-31" id="NgayDi" name="NgayDi" class="form-control">
+                    </div>
+                </div>
+                <div id="divHide" class="row form-group" hidden>
+                    <div class="col col-md-3">
+                        <label for="ngayden" class=" form-control-label">Ngày Đến: </label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <input type="date" min="1997-01-01" max="2030-12-31" id="NgayDen" name="NgayDen" class="form-control">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="card-footer" style="text-align:right">
+            <button class="btn btn-primary" id="TimChuyenBay">
+                <i class="fa fa-search"></i> Tìm Chuyến Bay
+            </button>
+        </div>
+    </div>
+</div>
+
+<div id="divHidenChuyeBay" class="col-lg-12" hidden>
+    <div class="table-responsive table--no-card m-b-30">
+        <table class="table table-borderless table-striped table-earning">
+            <tbody id="ChuyenBayTrongNgay">
+            </tbody>
+        </table>
+    </div>
+</div>
+<button hidden type="button" id="btnDatCho" class="btn btn-primary" style="margin-bottom:10px">Đặt Chỗ</button>
+<div class="row" id="thongtinkhachhang" hidden>
+
+    <div class="col-lg-6">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h3 class="text-center title-2">Thông Tin Khách Hàng</h3>
+                        </div>
+                        <hr>
+                        <form action="" method="post" novalidate="novalidate">
+                            <div class="form-group">
+                                <label for="tenkhachhang" class="control-label mb-1">Họ Tên Khách Hàng</label>
+                                <input id="tenkhachhang" name="tenkhachhang" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
+                            </div>
+                            <div class="form-group">
+                                <label for="sodienthoai" class="control-label mb-1">Số Điện Thoại</label>
+                                <input id="sodienthoai" name="sodienthoai" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
+                            </div>
+                            <div class="form-group">
+                                <label for="emial" class="control-label mb-1">Email</label>
+                                <input id="emial" name="emial" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
+                            </div>
+                            <div class="form-group">
+                                <label for="ngaythangnamsinh" class="control-label mb-1">Ngày Sinh</label>
+                                <input id="ngaythangnamsinh" name="ngaythangnamsinh" type="date" class="form-control" aria-required="true" aria-invalid="false" value="">
+                            </div>
+                            <div class="form-check-inline form-check form-group">
+                                <label for="Nam" class="form-check-label ">
+                                    <input type="radio" id="Nam" name="gioitinh" value="Nam" class="form-check-input">Nam
+                                </label>
+                                <label style="margin-left:20px" for="Nu" class="form-check-label ">
+                                    <input type="radio" id="Nu" name="gioitinh" value="Nu" class="form-check-input">Nữ
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="card-body" style="text-align:right">
+                        <button type="button" class="btn btn-secondary">Ghế đang chọn</button>
+                        <button type="button" class="btn btn-success">Hạng 2</button>
+                        <button type="button" class="btn btn-danger">Hạng 1</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-lg-6">
+        <div class="row" style="margin-top: 10px;">
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-A1" style="width: 50px; height: 50px;" value="A1">A1</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-B1" style="width: 50px; height: 50px;" value="B1">B1</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-C1" style="width: 50px; height: 50px;" value="C1">C1</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-D1" style="width: 50px; height: 50px;" value="D1">D1</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-E1" style="width: 50px; height: 50px;" value="E1">E1</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-F1" style="width: 50px; height: 50px;" value="F1">F1</button>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 10px">
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-A2" style="width: 50px; height: 50px;" value="A2">A2</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-B2" style="width: 50px; height: 50px;" value="B2">B2</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-C2" style="width: 50px; height: 50px;" value="C2">C2</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-D2" style="width: 50px; height: 50px;" value="D2">D2</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-E2" style="width: 50px; height: 50px;" value="E2">E2</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-F2" style="width: 50px; height: 50px;" value="F2">F2</button>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 10px">
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-A3" style="width: 50px; height: 50px;" value="A3">A3</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-B3" style="width: 50px; height: 50px;" value="B3">B3</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-C3" style="width: 50px; height: 50px;" value="C3">C3</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-D3" style="width: 50px; height: 50px;" value="D3">D3</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-E3" style="width: 50px; height: 50px;" value="E3">E3</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-F3" style="width: 50px; height: 50px;" value="F3">F3</button>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 10px">
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-A4" style="width: 50px; height: 50px;" value="A4">A4</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-B4" style="width: 50px; height: 50px;" value="B4">B4</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-C4" style="width: 50px; height: 50px;" value="C4">C4</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-D4" style="width: 50px; height: 50px;" value="D4">D4</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-E4" style="width: 50px; height: 50px;" value="E4">E4</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-danger btnSoGhe btnSoGhe-F4" style="width: 50px; height: 50px;" value="F4">F4</button>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 10px">
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-A5" style="width: 50px; height: 50px;" value="A5">A5</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-B5" style="width: 50px; height: 50px;" value="B5">B5</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-C5" style="width: 50px; height: 50px;" value="C5">C5</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-D5" style="width: 50px; height: 50px;" value="D5">D5</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-E5" style="width: 50px; height: 50px;" value="E5">E5</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-F5" style="width: 50px; height: 50px;" value="F5">F5</button>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 10px">
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-A6" style="width: 50px; height: 50px;" value="A6">A6</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-B6" style="width: 50px; height: 50px;" value="B6">B6</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-C6" style="width: 50px; height: 50px;" value="C6">C6</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-D6" style="width: 50px; height: 50px;" value="D6">D6</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-E6" style="width: 50px; height: 50px;" value="E6">E6</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-F6" style="width: 50px; height: 50px;" value="F6">F6</button>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 10px">
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-A7" style="width: 50px; height: 50px;" value="A7">A7</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-B7" style="width: 50px; height: 50px;" value="A1">B7</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-C7" style="width: 50px; height: 50px;" value="C7">C7</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-D7" style="width: 50px; height: 50px;" value="D7">D7</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-E7" style="width: 50px; height: 50px;" value="E7">E7</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-F7" style="width: 50px; height: 50px;" value="F7">F7</button>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 10px">
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-A8" style="width: 50px; height: 50px;" value="A8">A8</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-B8" style="width: 50px; height: 50px;" value="B8">B8</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-C8" style="width: 50px; height: 50px;" value="C8">C8</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-D8" style="width: 50px; height: 50px;" value="D8">D8</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-E8" style="width: 50px; height: 50px;" value="E8">E8</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-F8" style="width: 50px; height: 50px;" value="F8">F8</button>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 10px">
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-A9" style="width: 50px; height: 50px;" value="A9">A9</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-B9" style="width: 50px; height: 50px;" value="B9">B9</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-C9" style="width: 50px; height: 50px;" value="C9">C9</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-D9" style="width: 50px; height: 50px;" value="D9">D9</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-E9" style="width: 50px; height: 50px;" value="E9">E9</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-F9" style="width: 50px; height: 50px;" value="F9">F9</button>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 10px">
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-A10" style="width: 50px; height: 50px;" value="A10">A10</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-B10" style="width: 50px; height: 50px;" value="B10">B10</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-C10"  style="width: 50px; height: 50px;" value="C10">C10</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-D10" style="width: 50px; height: 50px;" value="D10">D10</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-E10 " style="width: 50px; height: 50px;" value="E10">E10</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-F10" style="width: 50px; height: 50px;" value="F10">F10</button>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 10px">
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-A11" style="width: 50px; height: 50px;" value="A11">A11</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-B11" style="width: 50px; height: 50px;" value="B11">B11</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-C11" style="width: 50px; height: 50px;" value="C11">C11</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-D11" style="width: 50px; height: 50px;" value="D11">D11</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-E11" style="width: 50px; height: 50px;" value="E11">E11</button>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success btnSoGhe btnSoGhe-F11" style="width: 50px; height: 50px;" value="F11">F11</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var url = "http://localhost:50947/api/";
+        var listGhe = [];
+        $("#MotChieu").attr('checked', 'checked');
+        GetSanBayDi();
+        GetSanBayDen();
+        $('#NgayDi').val(today());
+        function today() {
+            let d = new Date();
+            let currDate = d.getDate();
+            let currMonth = d.getMonth() + 1;
+            let currYear = d.getFullYear();
+            return currYear + "-" + ((currMonth < 10) ? '0' + currMonth : currMonth) + "-" + ((currDate < 10) ? '0' + currDate : currDate);
+        }
+        function GetSanBayDi() {
+            $.ajax({
+                type: "GET",
+                url: url + "SanBayDi",
+                //data: $("#selectSanBayDi").serialize(),
+                success: function (data) {
+                    $.each(data, function (index, value) {
+                        $("#selectSanBayDi").append(sanbaydiBuildTableRow(value));
+                    });
+                },
+                error: function () { alert('error'); }
+            });
+        }
+        function sanbaydiBuildTableRow(item) {
+            var ret = '<option data-di-id= "' + item.id + '" value="' + item.tenSanBayDi + '">' + item.tenSanBayDi + '</option>';
+            return ret;
+        }
+
+        function GetSanBayDen() {
+            $.ajax({
+                type: "GET",
+                url: url + "SanBayDen",
+                //data: $("#selectSanBayDi").serialize(),
+                success: function (data) {
+                    $.each(data, function (index, value) {
+                        $("#selectSanBayDen").append(sanbaydenBuildTableRow(value));
+                    });
+                },
+                error: function () { alert('error'); }
+            });
+        }
+        function sanbaydenBuildTableRow(item) {
+            var ret = '<option data-den-id= "' + item.id + '" value="' + item.tenSanBayDden + '">' + item.tenSanBayDden + '</option>';
+            return ret;
+        }
+
+        $("#KhuHoi").click(function () {
+            $('#divHide').removeAttr("hidden");
+
+            $('#NgayDen').val(today());
+            function today() {
+                let d = new Date();
+                let currDate = d.getDate() + 7;
+                let currMonth = d.getMonth() + 1;
+                let currYear = d.getFullYear();
+                return currYear + "-" + ((currMonth < 10) ? '0' + currMonth : currMonth) + "-" + ((currDate < 10) ? '0' + currDate : currDate);
+            }
+        })
+        $("#MotChieu").click(function () {
+            $('#divHide').attr("hidden", true);
+        });
+
+
+        //danh sách chuyến bay được tìm thấy
+        $("#TimChuyenBay").click(function () {
+            $("#ChuyenBayTrongNgay").empty();
+            var chuyenBay = new Object();
+            chuyenBay.SanBayDiID = $("#selectSanBayDi option:selected").attr('data-di-id');
+            chuyenBay.SanBayDenID = $("#selectSanBayDen option:selected").attr('data-den-id');
+
+            $.ajax(
+                {
+                    type: "POST",
+                    dataType: 'json',
+                    contentType: "application/json; charset=utf-8",
+                    url: url + "ChuyenBay/ChuyenBayBySanBay",
+                    data: JSON.stringify(chuyenBay),
+                    success: function (result) {
+                        if (result.length > 0) {
+                            $('#divHidenChuyeBay').removeAttr("hidden");
+                            $.each(result, function (index, value) {
+                                $("#ChuyenBayTrongNgay").append(chuyenbayBuildTableRow(value));
+                            });
+                        }
+                        else {
+                            $('#divHidenChuyeBay').attr("hidden", true);
+                        }
+                    },
+                    failure: function (response) {
+                        //
+                    }
+
+                });
+        });
+
+        function chuyenbayBuildTableRow(item) {
+            var ret =
+                '<tr>'
+                + '<td>' + item.tenMayBay + '</td>'
+                + '<td>' + item.gioKhoiHanh + '</td>'
+                + '<td>' + item.thoiGian + ' phúc</td>'
+                + '<td>' + item.gia + ' VND</td>'
+                + '<td style="float:right">'
+                + '<button type="button" id="ChonChuyenBayThis" style="margin-right: 10px;" data-id="' + item.id + '" class="btn btn-success btn-sm filldataechonchuyensanbay" data-toggle="modal" data-target="#chonchuyenbayModal" data-backdrop="false">Chọn Chuyến</button>'
+                + '</td>'
+                + '</tr>';
+
+            return ret;
+        }
+
+        //Đặt chỗ
+
+        $(document).on('click', '.filldataechonchuyensanbay', function () {
+            $('#thongtinkhachhang').removeAttr("hidden"); 
+            $('#btnDatCho').removeAttr("hidden");
+            listGhe = [];
+            $(".btnSoGhe").removeClass("btnColow");
+            
+            $('#ngaythangnamsinh').val(today());
+            $("#Nam").attr('checked', 'checked');
+
+            DataGhe();
+            
+        });
+
+        //get data ghe
+        function DataGhe() {
+            var datcho = new Object();
+            datcho.NgayDi = $('#NgayDi').val();
+            if ($('#KhuHoi').is(':checked')) {
+                datcho.NgayVe = $('#NgayDen').val();
+            }
+            datcho.ChuyenBayID = $('.filldataechonchuyensanbay').data("id");
+            $.ajax(
+                {
+                    type: "POST",
+                    dataType: 'json',
+                    contentType: "application/json; charset=utf-8",
+                    url: url + "DatChoHanhKhach/GiuCho",
+                    data: JSON.stringify(datcho),
+                    success: function (result) {
+                        if (result.length > 0) {
+                            for (var i = 0; i < result.length; i++) {
+                                $(".btnSoGhe-" + result[i].maCho).addClass("btnColow");
+                            }
+                        }
+                    },
+                    failure: function (response) {
+                        //
+                    }
+
+                });
+        }
+
+        $(document).on('click', '.btnSoGhe', function () {
+            listGhe.push($(this).val());
+
+            if ($(this).hasClass("btnColow") == true) {
+                //$(this).removeClass("btnColow");
+
+            }
+            else {
+                $(this).addClass("btnColow");
+            }
+
+        });
+
+        $("#btnDatCho").click(function () {
+           
+
+            var khachHang = new Object();
+            khachHang.HoTen = $('#tenkhachhang').val();
+            khachHang.SoDienThoai = $('#sodienthoai').val();
+            khachHang.Email = $('#emial').val();
+            khachHang.NgayThangNamSinh = $('#ngaythangnamsinh').val();
+            if ($('#Nam').is(':checked')) {
+                khachHang.GioiTinh = true;
+            }
+            else {
+                khachHang.GioiTinh = false;
+            }
+
+            $.ajax(
+                {
+                    type: "POST",
+                    url: url + "DatChoHanhKhach/khachHang",
+                    data: JSON.stringify(khachHang),
+                    contentType: "application/json; charset=utf-8", // this
+                    dataType: "json", // and this
+                    //async: true,
+                    success: function (result) {
+                        if (result > 0) {
+                            SaveDatCho(result);
+                        }
+                    },
+                    failure: function (response) {
+                        //
+                    }
+
+                });
+        })
+        function SaveDatCho(id) {
+
+            var datcho = new Object();
+            datcho.NgayDi = $('#NgayDi').val();
+            datcho.NgayVe = $('#NgayDen').val() == "" ? null : $('#NgayDen').val();
+            datcho.ChuyenBayID = $('.filldataechonchuyensanbay').data("id");
+            datcho.KhachHangID = id;
+            $.ajax(
+                {
+                    type: "POST",
+                    url: url + "DatChoHanhKhach/CreateDatCho",
+                    data: JSON.stringify(datcho),
+                    contentType: "application/json; charset=utf-8", // this
+                    dataType: "json", // and this
+                    //async: true,
+                    success: function (result) {
+                        if (result > 0) {
+                            SaveGheGiuCho(result);
+                        }
+                    },
+                    failure: function (response) {
+                        //
+                    }
+
+                });
+        }
+        function SaveGheGiuCho(DatChoId) {
+            var giucho = new Object();
+            giucho.MaCho =  listGhe.join(", ")
+            $.ajax(
+                {
+                    type: "POST",
+                    url: url + "DatChoHanhKhach/" + DatChoId +"/GheGiuCho",
+                    data: JSON.stringify(giucho),
+                    contentType: "application/json; charset=utf-8", // this
+                    dataType: "json", // and this
+                    //async: true,
+                    success: function (result) {
+                        if (result == true) {
+                            $('#tenkhachhang').val("");
+                            $('#sodienthoai').val("");
+                            $('#emial').val("");
+                            $(".btnSoGhe").removeClass("btnColow");
+                            DataGhe();
+                        }
+                    },
+                    failure: function (response) {
+                        //
+                    }
+
+                });
+        }
+    });
+</script>

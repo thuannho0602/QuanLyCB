@@ -1,0 +1,15 @@
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.DataAccess\bin\Debug\net5.0\DoAnCB.DataAccess.deps.json
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.DataAccess\bin\Debug\net5.0\DoAnCB.DataAccess.dll
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.DataAccess\bin\Debug\net5.0\ref\DoAnCB.DataAccess.dll
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.DataAccess\bin\Debug\net5.0\DoAnCB.DataAccess.pdb
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.DataAccess\bin\Debug\net5.0\DoAnCB.Entity.dll
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.DataAccess\bin\Debug\net5.0\DoAnCB.Entity.pdb
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.DataAccess\obj\Debug\net5.0\DoAnCB.DataAccess.csprojAssemblyReference.cache
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.DataAccess\obj\Debug\net5.0\DoAnCB.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.DataAccess\obj\Debug\net5.0\DoAnCB.DataAccess.AssemblyInfoInputs.cache
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.DataAccess\obj\Debug\net5.0\DoAnCB.DataAccess.AssemblyInfo.cs
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.DataAccess\obj\Debug\net5.0\DoAnCB.DataAccess.csproj.CoreCompileInputs.cache
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.DataAccess\obj\Debug\net5.0\DoAnCB.DataAccess.csproj.CopyComplete
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.DataAccess\obj\Debug\net5.0\DoAnCB.DataAccess.dll
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.DataAccess\obj\Debug\net5.0\ref\DoAnCB.DataAccess.dll
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.DataAccess\obj\Debug\net5.0\DoAnCB.DataAccess.pdb

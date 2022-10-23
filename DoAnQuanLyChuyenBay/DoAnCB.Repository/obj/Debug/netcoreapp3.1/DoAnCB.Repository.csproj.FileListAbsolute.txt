@@ -1,0 +1,10 @@
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Repository\bin\Debug\netcoreapp3.1\DoAnCB.Repository.deps.json
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Repository\bin\Debug\netcoreapp3.1\DoAnCB.Repository.dll
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Repository\bin\Debug\netcoreapp3.1\DoAnCB.Repository.pdb
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Repository\obj\Debug\netcoreapp3.1\DoAnCB.Repository.csprojAssemblyReference.cache
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Repository\obj\Debug\netcoreapp3.1\DoAnCB.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Repository\obj\Debug\netcoreapp3.1\DoAnCB.Repository.AssemblyInfoInputs.cache
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Repository\obj\Debug\netcoreapp3.1\DoAnCB.Repository.AssemblyInfo.cs
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Repository\obj\Debug\netcoreapp3.1\DoAnCB.Repository.csproj.CoreCompileInputs.cache
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Repository\obj\Debug\netcoreapp3.1\DoAnCB.Repository.dll
+D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Repository\obj\Debug\netcoreapp3.1\DoAnCB.Repository.pdb

@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="table-responsive table--no-card m-b-30">
+
+            <table class="table table-borderless table-striped table-earning">
+
+                <thead>
+                    <tr>
+                        <th>
+                            Tên máy bay
+                        </th>
+                        <th>
+                            Doanh Thu
+                        </th>
+                        <th>
+                            Số Vé
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="getdatadoanhthuthang">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var url = "http://localhost:50947/api/";
+        GetData();
+        function GetData() {
+            var date = new Date();
+            var thang = date.getMonth() + 1;
+            $.ajax({
+                type: "POST",
+                url: url + "DatChoHanhKhach/GetBaoCaoDanhThuTheoThang/" + thang,
+                data: $("#getdatadoanhthuthang").serialize(),
+                success: function (data) {
+                    $.each(data, function (index, value) {
+                        $("#getdatadoanhthuthang").append(productBuildTableRow(value));
+                    });
+                },
+                error: function () { alert('error'); }
+            });
+        }
+        function productBuildTableRow(item) {
+            var ret =
+                '<tr>'
+                + '<td>' + item.tenMayBay + '</td>'
+                + '<td>' + item.doanhThu + '</td>'
+                + '<td>' + item.soVe + '</td>'
+                + '</tr>';
+
+            return ret;
+        }
+    })
+
+</script>

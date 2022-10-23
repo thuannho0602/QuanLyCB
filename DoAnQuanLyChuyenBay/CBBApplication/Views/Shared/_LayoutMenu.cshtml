@@ -1,0 +1,54 @@
+﻿<div class="logo">
+        <a href="QuanLyDanhSachChuyenBay">
+            <img src="~/Assets/images/icon/logo-white.png" alt="Cool Admin" />
+        </a>
+    </div>
+    <div class="menu-sidebar2__content js-scrollbar1">
+        <div class="account2">
+            <div class="image img-cir img-120">
+                @*<img src="~/Assets/images/icon/avatar-big-01.jpg" alt="John Doe" />*@
+                <img src="~/Assets/images/icon/undraw_profile.svg" />
+            </div>
+            <h4 class="name">@ViewBag.FullName</h4>
+            <a href="@Url.Action("Login", "Account")">Đăng Xuất</a>
+        </div>
+        <nav class="navbar-sidebar2">
+            <ul class="list-unstyled navbar__list">
+                <li>
+                    <a href="@Url.Action("Index", "QuanLyDanhSachChuyenBay")">
+                        <i class="fas fa-star"></i>Đặt vé
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "SanBayDi")">
+                        <i class="fas fa-plane"></i>Sân Bay Đi
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "SanBayDen")">
+                        <i class="fa fa-location-arrow"></i>Sân Bay Đến
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "MayBay")">
+                        <i class="fa fa-plane"></i>Máy Bay
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "ChuyenBay")">
+                        <i class="fas fa-desktop"></i>Chuyến Bay
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "DoanhThuThang")">
+                        <i class="fas fa-calendar-o"></i>Danh Thu Theo Tháng
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "DoanhThuNam")">
+                        <i class="fa fa-clock-o"></i>Danh Thu Theo Năm
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>

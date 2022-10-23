@@ -1,0 +1,480 @@
+﻿
+@{
+    ViewData["Title"] = "Chuyến Bay";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row">
+    <div class="col-lg-12">
+        <button id="themchuyenbay" type="button" style="margin-bottom:10px" class="btn btn-success mb-1" data-toggle="modal" data-target="#thechuyenbayModal" data-backdrop="false">
+            Thêm Chuyến Bay
+        </button>
+        <div class="table-responsive table--no-card m-b-30">
+
+            <table class="table table-borderless table-striped table-earning">
+
+                <thead>
+                    <tr>
+                        <th>
+                            ID
+                        </th>
+                        <th>
+                            Giờ Khởi Hành
+                        </th>
+                        <th>
+                            Thời Gian
+                        </th>
+                        <th>
+                            Giá
+                        </th>
+                        <th>
+                            Sân Bay Đi
+                        </th>
+                        <th>
+                            Sân Bay Đến
+                        </th>
+                        <th>
+                            Máy Bay
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="getdatachuyenbay">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="thechuyenbayModal" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="mediumModalLabel">Thêm Chuyến Bay</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="card-body">
+                    <div class="form-group has-success">
+                        <label for="cc-name" class="control-label mb-1">Giờ Khởi Hành</label>
+                        @*<input id="themchuyenbay_giokhoihanh" name="themchuyenbay_giokhoihanh" type="text" class="form-control cc-name valid" value="">*@
+
+                        <input type="time" id="themchuyenbay_giokhoihanh" name="themchuyenbay_giokhoihanh" min="09:00" max="18:00" required class="form-control cc-name valid" value="">
+                    </div>
+                    <div class="form-group">
+                        <label for="cc-number" class="control-label mb-1">Thời Gian</label>
+                        <input id="themchuyenbay_thoigian" name="themchuyenbay_thoigian" type="tel" class="form-control cc-number identified visa" value="">
+                    </div>
+                    <div class="form-group">
+                        <label for="cc-number" class="control-label mb-1">Giá</label>
+                        <input id="themchuyenbay_gia" name="themchuyenbay_gia" type="tel" class="form-control cc-number identified visa" value="">
+                    </div>
+                    <div class="form-group">
+                        <label for="cc-number" class="control-label mb-1">Sân Bay Đi</label>
+                        <select name="selectSanBayDi" id="selectSanBayDi" class="form-control">
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="cc-number" class="control-label mb-1">Sân Bay Đến</label>
+                        <select name="selectSanBayDen" id="selectSanBayDen" class="form-control">
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="cc-number" class="control-label mb-1">Máy Bay </label>
+                        <select name="selectMayBay" id="selectMayBay" class="form-control">
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                <button id="btnThemChuyenBay" type="button" class="btn btn-primary">Thêm</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="suachuyenbayModal" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="mediumModalLabel">Thêm Chuyến Bay</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="cc-number" class="control-label mb-1">Id</label>
+                        <input id="suachuyenbay_id" name="suachuyenbay_id" type="tel" class="form-control cc-number identified visa" value="" disabled>
+                    </div>
+                    <div class="form-group has-success">
+                        <label for="cc-name" class="control-label mb-1">Giờ Khởi Hành</label>
+                        @*<input id="themchuyenbay_giokhoihanh" name="themchuyenbay_giokhoihanh" type="text" class="form-control cc-name valid" value="">*@
+
+                        <input type="time" id="suachuyenbay_giokhoihanh" name="suachuyenbay_giokhoihanh" min="09:00" max="18:00" required class="form-control cc-name valid" value="">
+                    </div>
+                    <div class="form-group">
+                        <label for="cc-number" class="control-label mb-1">Thời Gian</label>
+                        <input id="suachuyenbay_thoigian" name="suachuyenbay_thoigian" type="tel" class="form-control cc-number identified visa" value="">
+                    </div>
+                    <div class="form-group">
+                        <label for="cc-number" class="control-label mb-1">Giá</label>
+                        <input id="suachuyenbay_gia" name="suachuyenbay_gia" type="tel" class="form-control cc-number identified visa" value="">
+                    </div>
+                    <div class="form-group">
+                        <label for="cc-number" class="control-label mb-1">Sân Bay Đi</label>
+                        <select name="selectSuaSanBayDi" id="selectSuaSanBayDi" class="form-control">
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="cc-number" class="control-label mb-1">Sân Bay Đến</label>
+                        <select name="selectSuaSanBayDen" id="selectSuaSanBayDen" class="form-control">
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="cc-number" class="control-label mb-1">Máy Bay</label>
+                        <select name="selectSuaMayBay" id="selectSuaMayBay" class="form-control">
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                <button id="btnSuaChuyenBay" type="button" class="btn btn-primary">Sửa</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var url = "http://localhost:50947/api/";
+        GetData();
+        function GetData() {
+            $.ajax({
+                type: "GET",
+                url: url + "ChuyenBay",
+                //data: answerList,
+                //dataType: 'json',
+               
+                data: $("#getdatachuyenbay").serialize(),
+                success: function (data) {
+                    $.each(data, function (index, value) {
+                        $("#getdatachuyenbay").append(productBuildTableRow(value));
+                    });
+                },
+                error: function () { alert('error'); }
+            });
+        }
+        function productBuildTableRow(item) {
+            var ret =
+                '<tr>'
+                + '<td>' + item.id + '</td>'
+                + '<td>' + item.gioKhoiHanh + '</td>'
+                + '<td>' + item.thoiGian + ' phúc</td>'
+                + '<td>' + item.gia + ' VND</td>'
+                + '<td>' + item.tenSanBayDi + '</td>'
+                + '<td>' + item.tenSanBayDen + '</td>'
+                + '<td>' + item.tenMayBay + '</td>'
+                //+ '<td style="text-align:center">' + item.maLoai + '</td>'
+                + '<td style="float:right">'
+                + '<button type="button" id="btnEditChuyenBay" style="margin-right: 10px;" data-id="' + item.id + '" class="btn btn-primary btn-sm filldataeditchuyenbay" data-toggle="modal" data-target="#suachuyenbayModal" data-backdrop="false">Sửa</button>'
+                + '<button type="button" id="btnDeleteChuyenBay" data-id="' + item.id + '" class="btn btn-danger btn-sm deletechuyenbay" data-toggle="modal" data-target="#deletechuyenbayModal" data-backdrop="false">Xóa</button>'
+                + '</td>'
+                + '</tr>';
+
+            return ret;
+        }
+
+        // Thêm chuyến Bay
+        $("#themchuyenbay").click(function () {
+            $('#selectSanBayDi').empty().append('<option data-di-id="0">Please select</option>');
+            GetSanBayDiLoai();
+
+           
+            $('#selectSanBayDen').empty().append('<option data-den-id="0">Please select</option>');
+            GetSanBayDenLoai();
+
+            $('#selectMayBay').empty().append('<option data-may-id="0">Please select</option>');
+            GetMayBayLoai();
+
+            $("#themchuyenbay_thoigian").val("");
+            $("#themchuyenbay_gia").val("");
+        });
+       
+
+        function GetSanBayDiLoai() {
+            $.ajax({
+                type: "GET",
+                url: url + "SanBayDi",
+                //data: $("#selectSanBayDi").serialize(),
+                success: function (data) {
+                    $.each(data, function (index, value) {
+                        $("#selectSanBayDi").append(sanbaydiBuildTableRow(value));
+                    });
+                },
+                error: function () { alert('error'); }
+            });
+        }
+        function sanbaydiBuildTableRow(item) {
+            var ret = '<option data-di-id= "' + item.id + '" value="' + item.tenSanBayDi + '">' + item.tenSanBayDi+'</option>';
+            return ret;
+        }
+
+        function GetSanBayDenLoai() {
+            $.ajax({
+                type: "GET",
+                url: url + "SanBayDen",
+                //data: $("#selectSanBayDi").serialize(),
+                success: function (data) {
+                    $.each(data, function (index, value) {
+                        $("#selectSanBayDen").append(sanbaydenBuildTableRow(value));
+                    });
+                },
+                error: function () { alert('error'); }
+            });
+        }
+        function sanbaydenBuildTableRow(item) {
+            var ret = '<option data-den-id= "' + item.id + '" value="' + item.tenSanBayDden + '">' + item.tenSanBayDden + '</option>';
+            return ret;
+        }
+
+        function GetMayBayLoai() {
+            $.ajax({
+                type: "GET",
+                url: url + "MayBay",
+                //data: $("#selectSanBayDi").serialize(),
+                success: function (data) {
+                    $.each(data, function (index, value) {
+                        $("#selectMayBay").append(maybayBuildTableRow(value));
+                    });
+                },
+                error: function () { alert('error'); }
+            });
+        }
+        function maybayBuildTableRow(item) {
+            var ret = '<option data-may-id= "' + item.id + '" value="' + item.tenMayBay + '">' + item.tenMayBay + '</option>';
+            return ret;
+        }
+
+        $("#btnThemChuyenBay").click(function () {
+
+            if ($("#themchuyenbay_giokhoihanh").val() == "" ||
+                $("#themchuyenbay_thoigian").val() == "" ||
+                $("#themchuyenbay_gia").val() == "" ||
+                $("#selectSanBayDi").val() == "" ||
+                $("#selectSanBayDen").val() == "" ||
+                $("#selectMayBay").val() == "" 
+            ) {
+                //$.toast('Toast message to be shown');
+                $.toast({
+                    text: "Giờ khởi hành hoặc giá hoặc sân bay không được rỗng",
+                    showHideTransition: 'slide',  // It can be plain, fade or slide
+                    bgColor: 'red',              // Background color for toast
+                    textColor: '#eee',            // text color
+                    allowToastClose: false,       // Show the close button or not
+                    hideAfter: 5000,              // `false` to make it sticky or time in miliseconds to hide after
+                    stack: 5,                     // `fakse` to show one stack at a time count showing the number of toasts that can be shown at once
+                    textAlign: 'right',            // Alignment of text i.e. left, right, center
+                    position: 'top-right'       // bottom-left or bottom-right or bottom-center or top-left or top-right or top-center or mid-center or an object representing the left, right, top, bottom values to position the toast on page
+                })
+                $('#themchuyenbaymodal').modal().hide();
+            }
+            else {
+                var chuyenBay = new Object();
+                chuyenBay.GioKhoiHanh = $("#themchuyenbay_giokhoihanh").val();
+                chuyenBay.ThoiGian = $("#themchuyenbay_thoigian").val();
+                chuyenBay.Gia = $("#themchuyenbay_gia").val();
+                chuyenBay.SanBayDiID = $("#selectSanBayDi option:selected").attr('data-di-id');
+                chuyenBay.SanBayDenID = $("#selectSanBayDen option:selected").attr('data-den-id');
+                chuyenBay.MayBayID = $("#selectMayBay option:selected").attr('data-may-id');
+
+                $.ajax(
+                    {
+                        type: "POST",
+                        dataType: 'json',
+                        contentType: "application/json; charset=utf-8",
+                        url: url + "ChuyenBay",
+                        data: JSON.stringify(chuyenBay),
+
+                        success: function () {
+                            location.reload();
+                            $('#themchuyenbaymodal').modal().hide();
+                        },
+                        failure: function (response) {
+                            //
+                        }
+
+                    });
+            }
+        });  
+
+        // Sửa Chuyến Bay
+
+        $(document).on('click', '#btnEditChuyenBay', function () {
+            $('#selectSuaSanBayDi').empty()
+            GetSuaSanBayDiLoai();
+
+            $('#selectSuaSanBayDen').empty()
+            GetSuaSanBayDenLoai();
+
+            $('#selectSuaMayBay').empty()
+            GetSuaMayBayLoai();
+        });
+        function GetSuaSanBayDiLoai() {
+            $.ajax({
+                type: "GET",
+                url: url + "SanBayDi",
+                //data: $("#selectSanBayDi").serialize(),
+                success: function (data) {
+                    $.each(data, function (index, value) {
+                        $("#selectSuaSanBayDi").append(suasanbaydiBuildTableRow(value));
+                    });
+                },
+                error: function () { alert('error'); }
+            });
+        }
+        function suasanbaydiBuildTableRow(item) {
+            var ret = '<option data-di-id= "' + item.id + '" value="' + item.tenSanBayDi + '">' + item.tenSanBayDi + '</option>';
+            return ret;
+        }
+
+        function GetSuaSanBayDenLoai() {
+            $.ajax({
+                type: "GET",
+                url: url + "SanBayDen",
+                //data: $("#selectSanBayDi").serialize(),
+                success: function (data) {
+                    $.each(data, function (index, value) {
+                        $("#selectSuaSanBayDen").append(suasanbaydenBuildTableRow(value));
+                    });
+                },
+                error: function () { alert('error'); }
+            });
+        }
+        function suasanbaydenBuildTableRow(item) {
+            var ret = '<option data-den-id= "' + item.id + '" value="' + item.tenSanBayDden + '">' + item.tenSanBayDden + '</option>';
+            return ret;
+        }
+
+        function GetSuaMayBayLoai() {
+            $.ajax({
+                type: "GET",
+                url: url + "MayBay",
+                //data: $("#selectSanBayDi").serialize(),
+                success: function (data) {
+                    $.each(data, function (index, value) {
+                        $("#selectSuaMayBay").append(suamaybayBuildTableRow(value));
+                    });
+                },
+                error: function () { alert('error'); }
+            });
+        }
+        function suamaybayBuildTableRow(item) {
+            var ret = '<option data-may-id= "' + item.id + '" value="' + item.tenMayBay + '">' + item.tenMayBay + '</option>';
+            return ret;
+        }
+        $("#btnSuaChuyenBay").click(function () {
+
+            if ($("#suachuyenbay_giokhoihanh").val() == "" ||
+                $("#suachuyenbay_thoigian").val() == "" ||
+                $("#suachuyenbay_gia").val() == "" ||
+                $("#selectSuaSanBayDi").val() == "" ||
+                $("#selectSuaSanBayDen").val() == "" ||
+                $("#selectSuaMayBay").val() == ""
+            ) {
+                //$.toast('Toast message to be shown');
+                $.toast({
+                    text: "Giờ khởi hành hoặc giá hoặc sân bay không được rỗng",
+                    showHideTransition: 'slide',  // It can be plain, fade or slide
+                    bgColor: 'red',              // Background color for toast
+                    textColor: '#eee',            // text color
+                    allowToastClose: false,       // Show the close button or not
+                    hideAfter: 5000,              // `false` to make it sticky or time in miliseconds to hide after
+                    stack: 5,                     // `fakse` to show one stack at a time count showing the number of toasts that can be shown at once
+                    textAlign: 'right',            // Alignment of text i.e. left, right, center
+                    position: 'top-right'       // bottom-left or bottom-right or bottom-center or top-left or top-right or top-center or mid-center or an object representing the left, right, top, bottom values to position the toast on page
+                })
+                $('#themchuyenbaymodal').modal().hide();
+            }
+            else {
+                var chuyenBay = new Object();
+                chuyenBay.GioKhoiHanh = $("#suachuyenbay_giokhoihanh").val();
+                chuyenBay.ThoiGian = $("#suachuyenbay_thoigian").val();
+                chuyenBay.Gia = $("#suachuyenbay_gia").val();
+                chuyenBay.SanBayDiID = $("#selectSuaSanBayDi option:selected").attr('data-di-id');
+                chuyenBay.SanBayDenID = $("#selectSuaSanBayDen option:selected").attr('data-den-id');
+                chuyenBay.MayBayID = $("#selectSuaMayBay option:selected").attr('data-may-id');
+                var Id = $("#suachuyenbay_id").val();
+                $.ajax(
+                    {
+                        type: "PUT",
+                        dataType: 'json',
+                        contentType: "application/json; charset=utf-8",
+                        url: url + "ChuyenBay/" + Id,
+                        data: JSON.stringify(chuyenBay),
+
+                        success: function () {
+                            location.reload();
+                            $('#editsanbaydenModal').modal().hide();
+                        },
+                        failure: function (response) {
+                            //
+                        }
+
+                    });
+            }
+        });
+
+
+        //get by id
+        $(document).on('click', '.filldataeditchuyenbay', function () {
+            var Id = $(this).data('id');
+            $.ajax({
+                url: url + "ChuyenBay/" + Id,
+                type: "GET",
+                contentType: "application/json;charset=UTF-8",
+                dataType: "json",
+                success: function (result) {
+                    $('#suachuyenbay_id').val(result.id);
+                    $('#suachuyenbay_giokhoihanh').val(result.gioKhoiHanh);
+                    $('#suachuyenbay_thoigian').val(result.thoiGian);
+                    $('#suachuyenbay_gia').val(result.gia);
+
+                    //$('#selectSuaSanBayDi').prop("selected", true);
+                    $("#selectSuaSanBayDi option[data-di-id=" + result.sanBayDiID + "]").prop("selected", true);
+                    $("#selectSuaSanBayDen option[data-den-id=" + result.sanBayDenID + "]").prop("selected", true);
+                    $("#selectSuaMayBay option[data-may-id=" + result.mayBayID + "]").prop("selected", true);
+
+                    $('#suachuyenbayModal').modal('show');
+                },
+                error: function (errormessage) {
+                    alert(errormessage.responseText);
+                }
+            });
+        });
+
+
+        //delete
+        $(document).on('click', '#btnDeleteChuyenBay', function () {
+            var Id = $(this).data('id');
+            $.ajax({
+                url: url + "ChuyenBay/" + Id,
+                type: "DELETE",
+                contentType: "application/json;charset=UTF-8",
+                dataType: "json",
+                success: function (result) {
+                    location.reload();
+                },
+                error: function (errormessage) {
+                    alert(errormessage.responseText);
+                }
+            });
+        });
+    })
+</script>
