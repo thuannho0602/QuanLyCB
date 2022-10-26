@@ -6594,11 +6594,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\CBBApplication\\CBBApplication.csproj",
+      "projectUniqueName": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\CBBApplication\\CBBApplication.csproj",
       "projectName": "CBBApplication",
-      "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\CBBApplication\\CBBApplication.csproj",
+      "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\CBBApplication\\CBBApplication.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\CBBApplication\\obj\\",
+      "outputPath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\CBBApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6618,8 +6618,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj": {
-              "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj"
+            "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj": {
+              "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj"
             }
           }
         }

@@ -372,11 +372,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj",
+      "projectUniqueName": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj",
       "projectName": "DoAnCB.Entity",
-      "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj",
+      "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\obj\\",
+      "outputPath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

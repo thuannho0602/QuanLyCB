@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KzeSO3/7BbESHOL2oIUN/TijrnfVqBjZTsMtZ0ZCM643gvlv69fGU0KOTZ6j/pHBvsAZuc9fWmrydumWFzYncw==",
+  "dgSpecHash": "cDdb1QHHjBpskmCEGozF7gwufp8LYd8EL8vONsS914bu3W6tz89t29/4H6hGnoq8TTJU6dEBuH02L3AkZqigbw==",
   "success": true,
-  "projectFilePath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj",
+  "projectFilePath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.1\\microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.1\\microsoft.aspnetcore.cryptography.keyderivation.5.0.1.nupkg.sha512",

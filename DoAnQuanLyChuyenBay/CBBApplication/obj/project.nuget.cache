@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Pfiic1dRuLGUgQvqr/shPMCEIUVhf0CC1DTMfcy7qubASkA9YXjb3dD0e4UNq8dSGALP8/UVxjkXl/3ZjCXLXQ==",
+  "dgSpecHash": "iBpP+PUcO4CETuskLDynSKi5+7jS3iHAgvgOipZi9Js/gWcKKg4tbd77ScXm5mfDCLmvdroR2PcVcOZchrEFsA==",
   "success": true,
-  "projectFilePath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\CBBApplication\\CBBApplication.csproj",
+  "projectFilePath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\CBBApplication\\CBBApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

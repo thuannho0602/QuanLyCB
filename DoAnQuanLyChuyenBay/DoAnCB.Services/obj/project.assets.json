@@ -821,11 +821,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Services\\DoAnCB.Services.csproj",
+      "projectUniqueName": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Services\\DoAnCB.Services.csproj",
       "projectName": "DoAnCB.Services",
-      "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Services\\DoAnCB.Services.csproj",
+      "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Services\\DoAnCB.Services.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Services\\obj\\",
+      "outputPath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -845,14 +845,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj": {
-              "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj"
+            "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj": {
+              "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj"
             },
-            "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj": {
-              "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj"
+            "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj": {
+              "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj"
             },
-            "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\DoAnCB.Repository.csproj": {
-              "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\DoAnCB.Repository.csproj"
+            "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\DoAnCB.Repository.csproj": {
+              "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\DoAnCB.Repository.csproj"
             }
           }
         }

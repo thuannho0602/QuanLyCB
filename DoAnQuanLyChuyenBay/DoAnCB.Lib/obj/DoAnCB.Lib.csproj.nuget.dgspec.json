@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj": {}
+    "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj": {}
   },
   "projects": {
-    "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj": {
+    "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj",
+        "projectUniqueName": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj",
         "projectName": "DoAnCB.Lib",
-        "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj",
+        "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\obj\\",
+        "outputPath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

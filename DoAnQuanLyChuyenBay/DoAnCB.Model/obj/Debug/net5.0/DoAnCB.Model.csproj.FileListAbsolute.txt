@@ -10,3 +10,15 @@ D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Model\obj\Debug\net5.0\DoA
 D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Model\obj\Debug\net5.0\DoAnCB.Model.dll
 D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Model\obj\Debug\net5.0\ref\DoAnCB.Model.dll
 D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Model\obj\Debug\net5.0\DoAnCB.Model.pdb
+D:\ASp_Net\QuanLyChuyenBay\QuanLyCB\DoAnQuanLyChuyenBay\DoAnCB.Model\bin\Debug\net5.0\DoAnCB.Model.deps.json
+D:\ASp_Net\QuanLyChuyenBay\QuanLyCB\DoAnQuanLyChuyenBay\DoAnCB.Model\bin\Debug\net5.0\DoAnCB.Model.dll
+D:\ASp_Net\QuanLyChuyenBay\QuanLyCB\DoAnQuanLyChuyenBay\DoAnCB.Model\bin\Debug\net5.0\ref\DoAnCB.Model.dll
+D:\ASp_Net\QuanLyChuyenBay\QuanLyCB\DoAnQuanLyChuyenBay\DoAnCB.Model\bin\Debug\net5.0\DoAnCB.Model.pdb
+D:\ASp_Net\QuanLyChuyenBay\QuanLyCB\DoAnQuanLyChuyenBay\DoAnCB.Model\obj\Debug\net5.0\DoAnCB.Model.csprojAssemblyReference.cache
+D:\ASp_Net\QuanLyChuyenBay\QuanLyCB\DoAnQuanLyChuyenBay\DoAnCB.Model\obj\Debug\net5.0\DoAnCB.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASp_Net\QuanLyChuyenBay\QuanLyCB\DoAnQuanLyChuyenBay\DoAnCB.Model\obj\Debug\net5.0\DoAnCB.Model.AssemblyInfoInputs.cache
+D:\ASp_Net\QuanLyChuyenBay\QuanLyCB\DoAnQuanLyChuyenBay\DoAnCB.Model\obj\Debug\net5.0\DoAnCB.Model.AssemblyInfo.cs
+D:\ASp_Net\QuanLyChuyenBay\QuanLyCB\DoAnQuanLyChuyenBay\DoAnCB.Model\obj\Debug\net5.0\DoAnCB.Model.csproj.CoreCompileInputs.cache
+D:\ASp_Net\QuanLyChuyenBay\QuanLyCB\DoAnQuanLyChuyenBay\DoAnCB.Model\obj\Debug\net5.0\DoAnCB.Model.dll
+D:\ASp_Net\QuanLyChuyenBay\QuanLyCB\DoAnQuanLyChuyenBay\DoAnCB.Model\obj\Debug\net5.0\ref\DoAnCB.Model.dll
+D:\ASp_Net\QuanLyChuyenBay\QuanLyCB\DoAnQuanLyChuyenBay\DoAnCB.Model\obj\Debug\net5.0\DoAnCB.Model.pdb

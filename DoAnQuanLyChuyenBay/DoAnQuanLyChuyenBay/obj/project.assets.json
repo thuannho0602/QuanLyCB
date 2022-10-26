@@ -7370,11 +7370,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.API.csproj",
+      "projectUniqueName": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.API.csproj",
       "projectName": "DoAnCB.API",
-      "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.API.csproj",
+      "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.API.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnQuanLyChuyenBay\\obj\\",
+      "outputPath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnQuanLyChuyenBay\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7394,23 +7394,23 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj": {
-              "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj"
+            "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj": {
+              "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj"
             },
-            "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj": {
-              "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj"
+            "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj": {
+              "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj"
             },
-            "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj": {
-              "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj"
+            "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj": {
+              "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj"
             },
-            "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj": {
-              "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj"
+            "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj": {
+              "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj"
             },
-            "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\DoAnCB.Repository.csproj": {
-              "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\DoAnCB.Repository.csproj"
+            "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\DoAnCB.Repository.csproj": {
+              "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\DoAnCB.Repository.csproj"
             },
-            "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Services\\DoAnCB.Services.csproj": {
-              "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.Services\\DoAnCB.Services.csproj"
+            "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Services\\DoAnCB.Services.csproj": {
+              "projectPath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnCB.Services\\DoAnCB.Services.csproj"
             }
           }
         }

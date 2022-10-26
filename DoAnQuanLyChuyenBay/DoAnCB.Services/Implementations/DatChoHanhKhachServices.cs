@@ -217,8 +217,8 @@ namespace DoAnCB.Services.Implementations
                            SoDienThoai= khachhang.SoDienThoai,
                            Email = khachhang.Email,
                            GioDi = chuyenbay.GioKhoiHanh.ToString("hh\\:mm"),
-                           NgayDi = datcho.NgayDi.ToString(@"dd\MM\yyyy"),
-                           NgayVe = datcho.NgayVe.HasValue ? datcho.NgayVe.Value.ToString(@"dd\MM\yyyy") : null,
+                           NgayDi = datcho.NgayDi.ToString(@"dd/MM/yyyy"),
+                           NgayVe = datcho.NgayVe.HasValue ? datcho.NgayVe.Value.ToString(@"dd/MM/yyyy") : null,
                            TenMayBay = maybay.TenMayBay,
                            //SoGhe = string.Join(",", _giuChoRepository.FindByCondition(c=>c.DatChoId == datcho.Id).Select(c=>c.MaCho).ToList())
                         }).ToList();

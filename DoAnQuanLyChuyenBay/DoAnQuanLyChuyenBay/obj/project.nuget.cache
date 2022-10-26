@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p2sZuXYNSKRBbb+Sf8L5VDd/JtEO7uQX3/u9E0XnSqPhiXAIFyjABdleWyyWk8oJV5hC+QHP1B3H1Y0M8VFH1w==",
+  "dgSpecHash": "E2KOQMyIFhk3WMkA9INKLvUXXYYL6KspgFkBnvjGm2sMZ7ZMUsmEelGeel6t9MvgA1+6N8zmm64b0CC3kduwyQ==",
   "success": true,
-  "projectFilePath": "D:\\ASp_Net\\QuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.API.csproj",
+  "projectFilePath": "D:\\ASp_Net\\QuanLyChuyenBay\\QuanLyCB\\DoAnQuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\autofac\\4.9.1\\autofac.4.9.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\autofac.extensions.dependencyinjection\\5.0.1\\autofac.extensions.dependencyinjection.5.0.1.nupkg.sha512",
