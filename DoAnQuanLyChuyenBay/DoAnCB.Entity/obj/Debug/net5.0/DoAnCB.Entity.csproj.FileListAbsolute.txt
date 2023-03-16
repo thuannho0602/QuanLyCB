@@ -10,3 +10,15 @@ D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Entity\obj\Debug\net5.0\Do
 D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Entity\obj\Debug\net5.0\DoAnCB.Entity.dll
 D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Entity\obj\Debug\net5.0\ref\DoAnCB.Entity.dll
 D:\ASp_Net\QuanLyChuyenBay\DoAnQuanLyChuyenBay\DoAnCB.Entity\obj\Debug\net5.0\DoAnCB.Entity.pdb
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Entity\bin\Debug\net5.0\DoAnCB.Entity.deps.json
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Entity\bin\Debug\net5.0\DoAnCB.Entity.dll
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Entity\bin\Debug\net5.0\DoAnCB.Entity.pdb
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Entity\obj\Debug\net5.0\DoAnCB.Entity.csproj.AssemblyReference.cache
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Entity\obj\Debug\net5.0\DoAnCB.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Entity\obj\Debug\net5.0\DoAnCB.Entity.AssemblyInfoInputs.cache
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Entity\obj\Debug\net5.0\DoAnCB.Entity.AssemblyInfo.cs
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Entity\obj\Debug\net5.0\DoAnCB.Entity.csproj.CoreCompileInputs.cache
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Entity\obj\Debug\net5.0\DoAnCB.Entity.dll
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Entity\obj\Debug\net5.0\refint\DoAnCB.Entity.dll
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Entity\obj\Debug\net5.0\DoAnCB.Entity.pdb
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Entity\obj\Debug\net5.0\ref\DoAnCB.Entity.dll

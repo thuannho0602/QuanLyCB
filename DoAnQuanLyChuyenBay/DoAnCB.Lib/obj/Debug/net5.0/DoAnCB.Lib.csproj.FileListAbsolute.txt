@@ -22,3 +22,15 @@ D:\ASp_Net\QuanLyChuyenBay\QuanLyCB\DoAnQuanLyChuyenBay\DoAnCB.Lib\obj\Debug\net
 D:\ASp_Net\QuanLyChuyenBay\QuanLyCB\DoAnQuanLyChuyenBay\DoAnCB.Lib\obj\Debug\net5.0\DoAnCB.Lib.dll
 D:\ASp_Net\QuanLyChuyenBay\QuanLyCB\DoAnQuanLyChuyenBay\DoAnCB.Lib\obj\Debug\net5.0\ref\DoAnCB.Lib.dll
 D:\ASp_Net\QuanLyChuyenBay\QuanLyCB\DoAnQuanLyChuyenBay\DoAnCB.Lib\obj\Debug\net5.0\DoAnCB.Lib.pdb
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Lib\bin\Debug\net5.0\DoAnCB.Lib.deps.json
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Lib\bin\Debug\net5.0\DoAnCB.Lib.dll
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Lib\bin\Debug\net5.0\DoAnCB.Lib.pdb
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Lib\obj\Debug\net5.0\DoAnCB.Lib.csproj.AssemblyReference.cache
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Lib\obj\Debug\net5.0\DoAnCB.Lib.GeneratedMSBuildEditorConfig.editorconfig
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Lib\obj\Debug\net5.0\DoAnCB.Lib.AssemblyInfoInputs.cache
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Lib\obj\Debug\net5.0\DoAnCB.Lib.AssemblyInfo.cs
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Lib\obj\Debug\net5.0\DoAnCB.Lib.csproj.CoreCompileInputs.cache
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Lib\obj\Debug\net5.0\DoAnCB.Lib.dll
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Lib\obj\Debug\net5.0\refint\DoAnCB.Lib.dll
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Lib\obj\Debug\net5.0\DoAnCB.Lib.pdb
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Lib\obj\Debug\net5.0\ref\DoAnCB.Lib.dll

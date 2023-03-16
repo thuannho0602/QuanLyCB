@@ -1,0 +1,12 @@
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Model\bin\Debug\net6.0\DoAnCB.Model.deps.json
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Model\bin\Debug\net6.0\DoAnCB.Model.dll
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Model\bin\Debug\net6.0\DoAnCB.Model.pdb
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Model\obj\Debug\net6.0\DoAnCB.Model.csproj.AssemblyReference.cache
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Model\obj\Debug\net6.0\DoAnCB.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Model\obj\Debug\net6.0\DoAnCB.Model.AssemblyInfoInputs.cache
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Model\obj\Debug\net6.0\DoAnCB.Model.AssemblyInfo.cs
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Model\obj\Debug\net6.0\DoAnCB.Model.csproj.CoreCompileInputs.cache
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Model\obj\Debug\net6.0\DoAnCB.Model.dll
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Model\obj\Debug\net6.0\refint\DoAnCB.Model.dll
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Model\obj\Debug\net6.0\DoAnCB.Model.pdb
+D:\NguyenMinhThuan\QLCB\DoAnQuanLyChuyenBay\DoAnCB.Model\obj\Debug\net6.0\ref\DoAnCB.Model.dll
