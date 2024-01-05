@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DoAnCB.Model")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0ca9cb8aeb2c87bf8d0b3bc620eb1c98ac9e620")]
 [assembly: System.Reflection.AssemblyProductAttribute("DoAnCB.Model")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DoAnCB.Model")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

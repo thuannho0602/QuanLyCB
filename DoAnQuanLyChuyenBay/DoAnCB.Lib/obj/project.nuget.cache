@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GwFJ6UWBYks1tSZ6zym95gtCP9uP5allqhT+aArkxTgbj+tXO6HZJKj+UcqwiwSfz+ZN/DbsZNDwnl6SAlblgw==",
+  "dgSpecHash": "aFaQvvm8aAuczb1YY8hUF6AchAqxm4h1fw6U78A7XwJtzqwcaz/5ROZhdtStqQl5fAbh6agtuUtI4p+DObZbCA==",
   "success": true,
-  "projectFilePath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj",
+  "projectFilePath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AD\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\AD\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

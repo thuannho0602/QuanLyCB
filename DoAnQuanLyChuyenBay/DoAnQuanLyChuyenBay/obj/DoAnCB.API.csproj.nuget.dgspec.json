@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.API.csproj": {}
+    "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.API.csproj": {}
   },
   "projects": {
-    "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj": {
+    "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj",
+        "projectUniqueName": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj",
         "projectName": "DoAnCB.DataAccess",
-        "projectPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj",
+        "projectPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj",
         "packagesPath": "C:\\Users\\AD\\.nuget\\packages\\",
-        "outputPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\obj\\",
+        "outputPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj": {
-                "projectPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj"
+              "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj": {
+                "projectPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj"
               }
             }
           }
@@ -51,7 +51,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -82,18 +82,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj": {
+    "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj",
+        "projectUniqueName": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj",
         "projectName": "DoAnCB.Entity",
-        "projectPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj",
+        "projectPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj",
         "packagesPath": "C:\\Users\\AD\\.nuget\\packages\\",
-        "outputPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\obj\\",
+        "outputPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -129,7 +129,7 @@
           "dependencies": {
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -148,18 +148,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj": {
+    "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj",
+        "projectUniqueName": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj",
         "projectName": "DoAnCB.Lib",
-        "projectPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj",
+        "projectPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj",
         "packagesPath": "C:\\Users\\AD\\.nuget\\packages\\",
-        "outputPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\obj\\",
+        "outputPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -222,18 +222,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj": {
+    "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj",
+        "projectUniqueName": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj",
         "projectName": "DoAnCB.Model",
-        "projectPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj",
+        "projectPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj",
         "packagesPath": "C:\\Users\\AD\\.nuget\\packages\\",
-        "outputPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\obj\\",
+        "outputPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -282,18 +282,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\DoAnCB.Repository.csproj": {
+    "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\DoAnCB.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\DoAnCB.Repository.csproj",
+        "projectUniqueName": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\DoAnCB.Repository.csproj",
         "projectName": "DoAnCB.Repository",
-        "projectPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\DoAnCB.Repository.csproj",
+        "projectPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\DoAnCB.Repository.csproj",
         "packagesPath": "C:\\Users\\AD\\.nuget\\packages\\",
-        "outputPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\obj\\",
+        "outputPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -315,11 +315,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj": {
-                "projectPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj"
+              "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj": {
+                "projectPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj"
               },
-              "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj": {
-                "projectPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj"
+              "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj": {
+                "projectPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj"
               }
             }
           }
@@ -336,7 +336,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -355,18 +355,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Services\\DoAnCB.Services.csproj": {
+    "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Services\\DoAnCB.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Services\\DoAnCB.Services.csproj",
+        "projectUniqueName": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Services\\DoAnCB.Services.csproj",
         "projectName": "DoAnCB.Services",
-        "projectPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Services\\DoAnCB.Services.csproj",
+        "projectPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Services\\DoAnCB.Services.csproj",
         "packagesPath": "C:\\Users\\AD\\.nuget\\packages\\",
-        "outputPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Services\\obj\\",
+        "outputPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -388,14 +388,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj": {
-                "projectPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj"
+              "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj": {
+                "projectPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj"
               },
-              "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj": {
-                "projectPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj"
+              "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj": {
+                "projectPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj"
               },
-              "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\DoAnCB.Repository.csproj": {
-                "projectPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\DoAnCB.Repository.csproj"
+              "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\DoAnCB.Repository.csproj": {
+                "projectPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\DoAnCB.Repository.csproj"
               }
             }
           }
@@ -425,18 +425,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.API.csproj": {
+    "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.API.csproj",
+        "projectUniqueName": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.API.csproj",
         "projectName": "DoAnCB.API",
-        "projectPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.API.csproj",
+        "projectPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnQuanLyChuyenBay\\DoAnCB.API.csproj",
         "packagesPath": "C:\\Users\\AD\\.nuget\\packages\\",
-        "outputPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnQuanLyChuyenBay\\obj\\",
+        "outputPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnQuanLyChuyenBay\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -458,23 +458,23 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj": {
-                "projectPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj"
+              "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj": {
+                "projectPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.DataAccess\\DoAnCB.DataAccess.csproj"
               },
-              "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj": {
-                "projectPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj"
+              "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj": {
+                "projectPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Entity\\DoAnCB.Entity.csproj"
               },
-              "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj": {
-                "projectPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj"
+              "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj": {
+                "projectPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Lib\\DoAnCB.Lib.csproj"
               },
-              "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj": {
-                "projectPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj"
+              "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj": {
+                "projectPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Model\\DoAnCB.Model.csproj"
               },
-              "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\DoAnCB.Repository.csproj": {
-                "projectPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\DoAnCB.Repository.csproj"
+              "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\DoAnCB.Repository.csproj": {
+                "projectPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Repository\\DoAnCB.Repository.csproj"
               },
-              "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Services\\DoAnCB.Services.csproj": {
-                "projectPath": "D:\\NguyenMinhThuan\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Services\\DoAnCB.Services.csproj"
+              "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Services\\DoAnCB.Services.csproj": {
+                "projectPath": "D:\\QLCB\\DoAnQuanLyChuyenBay\\DoAnCB.Services\\DoAnCB.Services.csproj"
               }
             }
           }
@@ -491,21 +491,21 @@
           "dependencies": {
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[6.0.0, )"
             },
             "NetCore.AutoRegisterDi": {
               "target": "Package",
@@ -535,7 +535,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
