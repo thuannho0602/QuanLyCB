@@ -193,7 +193,7 @@ namespace DoAnCB.Services.Implementations
             list = list.Where(c => c.Nam == nam).ToList();
             var listGroup = list.GroupBy(c => new { c.Thang, c.TenMayBay, c.MayBayID }).Select(c => new DoanhThuNameResponse
             {
-                Thang = c.Key.Thang,
+                Thang = c.Key.Thang, 
                 TenMayBay = c.Key.TenMayBay,
                 MayBayID = c.Key.MayBayID,
                 DoanhThu = c.Sum(x => x.DoanhThu),
